@@ -1,17 +1,17 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-using Tyuiu.ShaukerovaAN.Sprint0.Task3.V0.Lib;
+using Tyuiu.ShaukerovaAN.Sprint0.Task4.V0.Lib;
 
-namespace Tyuiu.ShaukerovaAN.Sprint0.Task3.V0.Test
+namespace Tyuiu.ShaukerovaAN.Sprint0.Task4.V0.Test
 {
     [TestClass]
     public class DataServiceTest
     {
         [TestMethod]
-        public void CheckedValid()
+        public void CheckedAdditionalValid()
         {
-            Assert.AreEqual(10, DataService.Sum(5, 5)); 
+            Assert.AreEqual(10, DataService.Addition(5, 5));
         }
 
         [TestMethod]
@@ -33,3 +33,5 @@ namespace Tyuiu.ShaukerovaAN.Sprint0.Task3.V0.Test
         }
     }
 }
+
+
